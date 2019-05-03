@@ -12,9 +12,24 @@ However, the data can be accessed by contacting Dr. Koufakou at FGCU
 or myself. It is also available on the public internet, but I am not
 sure where.
 
-The dataset used is a small subset of the Wikimedia personal attacks dataset.
-Given more time, it is probably worth using the full dataset, but this could be
-a very time consuming process.
+The dataset used is a small subset of the Wikimedia personal attacks dataset
+that I obtained from Jason Scott, another student researching at FGCU on the
+same dataset with Dr. Koufakou.
+
+Given more time, it is probably worth using the full dataset, but this could 
+be a very time consuming process.
+
+### What is here
+
+```
+results/
+    - This directory will be empty initially.
+      This is where the results of each experiment will ultimately be output.
+data/
+    - This is where you put your data
+    - It also contains Jason's preprocessing script.
+      This file is only needed if you intend to preprocess the data yourself.
+```
 
 ### How to use these experiments?
 
