@@ -12,6 +12,8 @@ However, the data can be accessed by contacting Dr. Koufakou at FGCU
 or myself. It is also available on the public internet, but I am not
 sure where.
 
+The dataset used is a small subset of the Wikimedia personal attacks dataset.
+
 ### How to use these experiments?
 
 Ensure that the data directory contains the needed data in the proper
@@ -22,6 +24,12 @@ recall, and either binary f1 or macro f1, depending on the specific
 script you run. They are organized into folders depending on which
 type of F1 score they report. The results are output in CSV format
 for easier analysis.
+
+The data prep script in the data directory is the script supplied by
+Jason Scott, another FGCU student working with Dr. Koufakou on research
+on this dataset. This is not to be confused with the data prep file in
+the root directory of the project, which is a Python file containing
+functions that I have written myself to assist in data prep.
 
 The Fasttext classifier should be very fast, and produce most results
 within less than a minute on a mid-range system.
