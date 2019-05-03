@@ -63,6 +63,10 @@ for easier analysis.
 The Fasttext classifier should be very fast, and produce most results
 within less than a minute on a mid-range system.
 
+To run the fasttext embeddings trained on English Wikipedia, you will
+need to download them directly from the Fasttext website and point the
+script at them by changing the file path within the script.
+
 These scripts have been cleaned up to be easy to understand, tweak,
 and run.
 
