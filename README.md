@@ -13,6 +13,8 @@ or myself. It is also available on the public internet, but I am not
 sure where.
 
 The dataset used is a small subset of the Wikimedia personal attacks dataset.
+Given more time, it is probably worth using the full dataset, but this could be
+a very time consuming process.
 
 ### How to use these experiments?
 
@@ -27,7 +29,10 @@ for easier analysis.
 
 The data prep script in the data directory is the script supplied by
 Jason Scott, another FGCU student working with Dr. Koufakou on research
-on this dataset. This is not to be confused with the data prep file in
+on this dataset. The file is not used by any of my code but was left in
+because it is needed if you preprocess the data yourself from scratch,
+rather than using the already processed data that I obtained from Jason.
+That file is not to be confused with the data prep file in
 the root directory of the project, which is a Python file containing
 functions that I have written myself to assist in data prep.
 
